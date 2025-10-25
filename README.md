@@ -9,10 +9,13 @@
 The various algorithms are implemented using the RealEstate Dataset(predicting the price of a house based on features like X1 transaction date X2 house age X3 distance to the nearest MRT station X4 number of convenience stores X5 latitude X6 longitude. The other dataset used is a heart_failure_clinical_records dataset that predicts the mortality of a person based on features like, age, anaemia, creatinine_phosphokinase,diabetes, ejection_fraction, high_blood_pressure, platelets, serum_creatinine,serum_sodium,sex and smoking.
 
 **CONTENTS:**
-1. ** Python Programming ** 
+
+**Python Programming** 
+
 Contains fundamentals of the python programming
 
 **Supervised Learning Models**
+
 Supervised Learning folder contains the implementaion of below models in the corresponding directories.
 a. Perceptron
 b. Gradient Descent
@@ -25,6 +28,7 @@ h. Ensemble
 
 
 **Unsupervised Learning Models**
+
 Unsupervised Learning folder contains the implementaion of below models in the corresponding directories.
 a. Principle Component Analysis
 b. K-Means Clustering
