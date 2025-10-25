@@ -20,4 +20,4 @@ The various algorithms are implemented using the RealEstate Dataset(predicting t
 Supervised Learning Models
 Supervised Learning folder contains the implementaion of below models in the corresponding directories.
 
-[Perceptron]
+
