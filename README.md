@@ -18,19 +18,28 @@ Contains fundamentals of the python programming
 
 Supervised Learning folder contains the implementaion of below models in the corresponding directories.
 a. Perceptron
+
 b. Gradient Descent
+
 c. Linear Regression
+
 d. Logistic Regression
+
 e. Neural Networks
+
 f. K Nearest Neighbors
+
 g. Decision Tree
+
 h. Ensemble
 
 
 **Unsupervised Learning Models**
 
 Unsupervised Learning folder contains the implementaion of below models in the corresponding directories.
+
 a. Principle Component Analysis
+
 b. K-Means Clustering
 
 
