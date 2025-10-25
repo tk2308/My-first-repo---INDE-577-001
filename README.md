@@ -10,4 +10,4 @@ git push -u origin main
 m = Tanya
 print(m)
 
-<img width="447" height="440" alt="Screenshot 2025-10-24 at 8 07 22 pm" src="https://github.com/user-attachments/assets/ffe60120-7f26-49c0-8651-24cfc801178c" />
+<img width="864" height="515" alt="Screenshot 2025-10-24 at 8 07 53 pm" src="https://github.com/user-attachments/assets/e6cb49c6-4d8f-4290-8287-10e048e32f6e" />
