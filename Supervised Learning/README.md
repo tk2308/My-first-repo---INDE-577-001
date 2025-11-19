@@ -1,7 +1,8 @@
 # My-first-repo---INDE-577-001
 
 
-<img width="864" height="515" alt="Screenshot 2025-10-24 at 8 07 53 pm" src="https://github.com/user-attachments/assets/e6cb49c6-4d8f-4290-8287-10e048e32f6e" />
+<img width="658" height="354" alt="Screenshot 2025-11-18 at 6 29 27 pm" src="https://github.com/user-attachments/assets/6eb1b896-4a27-4798-8ae3-dc7ddd3a2e6a" />
+>
 
 
 **Purpose:** To perform Supervised & Unsupervised Learning using various machine learning models.
