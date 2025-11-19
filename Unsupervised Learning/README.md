@@ -2,7 +2,6 @@
 
 
 <img width="669" height="374" alt="Screenshot 2025-11-18 at 6 25 55 pm" src="https://github.com/user-attachments/assets/cf193b2f-61a1-491f-a038-843aefdb5877" />
-" src="[https://github.com/user-attachments/assets/e6cb49c6-4d8f-4290-8287-10e048e32f6e](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*5f8VujKLQKhQZRafA2t9hw.png)" />
 
 
 **Purpose:** To perform Supervised & Unsupervised Learning using various machine learning models.
