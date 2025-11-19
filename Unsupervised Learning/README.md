@@ -10,22 +10,6 @@ The various algorithms are implemented using the RealEstate Dataset(predicting t
 
 **CONTENTS:**
 
-**Python Programming** 
-
-Contains fundamentals of the python programming
-
-**Supervised Learning Models**
-
-Supervised Learning folder contains the implementaion of below models in the corresponding directories.
-- [**Perceptron**]
-- [**Gradient Descent**] 
-- [**Linear Regression**]
-- [**Logistic Regression**]
-- [**Neural Networks**]
-- [**K Nearest Neighbors**]
-- [**Decision Tree**]
-- [**Ensemble**]
-
 
 **Unsupervised Learning Models**
 
