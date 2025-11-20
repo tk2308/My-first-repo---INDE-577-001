@@ -54,15 +54,19 @@ $
 \large \text{Recall} = \dfrac{\text{True Positive}}{\text{True Positive + False Negative}}
 $
 
-**Task**
+## Task
+
 In this project, I will build a perceptron model from scratch and implement the perceptron learning algorithm for binary species classification.
 
-**Dataset**
+## Dataset
+
 The data used for this algorithm is the random data I generated.
 
-**Libraires**
+## Libraires
+
 Pandas https://pandas.pydata.org/
 Matplotlib https://matplotlib.org/
 Numpy https://numpy.org/
 Seaborn https://seaborn.pydata.org/
 Scikit-learn https://scikit-learn.org/
+
