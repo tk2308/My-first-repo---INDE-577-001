@@ -1,7 +1,7 @@
 # [Decision Tree Classification](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
 *Classification*
 
-![DTC](Decision_Tree.jpg)
+![DTC](Images/Decision_Tree.jpg)
 ---
 
 ## [Synopsis](https://en.wikipedia.org/wiki/Decision_tree_learning)
