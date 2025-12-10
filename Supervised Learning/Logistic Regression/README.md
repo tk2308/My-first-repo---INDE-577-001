@@ -1,8 +1,7 @@
 # [Logistic Regression](https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression)
 
----
-
-![logreg](logreg.PNG)
+## Visual Overview of Logistic Regression
+<img src="[/Supervised%20Machine%20Learning/images/logistic-regression.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpub.towardsai.net%2Flogistic-regression-a-simple-guide-to-intuition-and-implementation-in-python-1beebb88a871&psig=AOvVaw0WuEAMbYRAGoDVO3EXDhME&ust=1764634286924000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCOiGkpiNm5EDFQAAAAAdAAAAABAp)"  width="600">
 
 ## [Synopsis](https://en.wikipedia.org/wiki/Logistic_regression)
 Despite the name, *logistic Regression* is a classification algorithm developed to model population growth in the 1830s by Pierre Francois Verhulst. In machine learning, it yields the probability of a binary event happening. It can be extended to multi0label classification by assigning a probability between 0 and 1 to each object where the sum of all object probabilities is 1. Logistic regression itself is not a classifier, but rather models the probability of an output based on the input.
@@ -70,3 +69,5 @@ F = \frac{precision*recall}{precision + recall}
 $
 
 These metrics will allow us to easily compare the models.
+
+
