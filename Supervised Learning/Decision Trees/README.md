@@ -51,7 +51,7 @@ Gini impurity measures how often a randomly chosen element would be incorrectly 
 
 <img src = "https://storage.googleapis.com/lds-media/images/gini-impurity-diagram.width-1200.png" width ="400">
 
----
+
 
 ### 4.2 Entropy (Information Gain)
 
@@ -157,3 +157,4 @@ Decision trees are widely used in:
 2. Quinlan, J. R. *Induction of Decision Trees*, 1986  
 3. Scikit-learn Documentation – Decision Trees  
    https://scikit-learn.org/stable/modules/tree.html
+
