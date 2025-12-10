@@ -6,7 +6,7 @@ Decision Trees are supervised machine learning models used for **classification*
 
 ---
 
-## Overview
+## 1. Overview
 
 A decision tree learns a set of decision rules from input features to predict a target variable. Each internal node represents a feature-based condition, each branch represents an outcome of that condition, and each leaf node represents a final prediction.
 
@@ -14,7 +14,7 @@ Decision trees are commonly used due to their interpretability and ability to mo
 
 ---
 
-## Tree Structure
+## 2. Tree Structure
 
 A decision tree consists of:
 
@@ -27,7 +27,7 @@ A decision tree consists of:
 
 ---
 
-## How Decision Trees Learn
+## 3. How Decision Trees Learn
 
 Decision trees follow a **greedy, top-down** approach. At each node, the algorithm selects the feature and threshold that result in the purest child nodes. This recursive process continues until a stopping condition is met.
 
@@ -38,11 +38,11 @@ Common stopping conditions include:
 
 ---
 
-## Impurity Measures
+## 4. Impurity Measures
 
 Decision trees use impurity metrics to decide how data should be split.
 
-### Gini Impurity
+### 4.1 Gini Impurity
 
 Gini impurity measures how often a randomly chosen element would be incorrectly classified.
 
@@ -53,7 +53,7 @@ Gini impurity measures how often a randomly chosen element would be incorrectly 
 
 ---
 
-### Entropy (Information Gain)
+### 4.2 Entropy (Information Gain)
 
 Entropy measures the level of uncertainty in a node.
 
@@ -63,7 +63,7 @@ Entropy is used to calculate **Information Gain**, which quantifies the reductio
 
 ---
 
-## CART Algorithm
+## 5. CART Algorithm
 
 Scikit-learn implements decision trees using the **Classification and Regression Tree (CART)** algorithm. CART always builds **binary trees** by minimizing impurity at each split.
 
@@ -74,7 +74,7 @@ Where:
 
 ---
 
-## Prediction Process
+## 6. Prediction Process
 
 To generate a prediction:
 
@@ -87,16 +87,16 @@ To generate a prediction:
 
 ---
 
-## Overfitting and Pruning
+## 7. Overfitting and Pruning
 
 Decision trees are prone to overfitting when allowed to grow too deep.
 
-### Pre-Pruning Techniques
+### 7.1 Pre-Pruning Techniques
 - Limit maximum depth
 - Set minimum samples per split
 - Set minimum samples per leaf
 
-### Post-Pruning
+### 7.2 Post-Pruning
 - Train a full tree
 - Remove branches that do not improve performance
 
@@ -104,24 +104,24 @@ Decision trees are prone to overfitting when allowed to grow too deep.
 
 ---
 
-## Model Evaluation (Classification)
+## 8. Model Evaluation (Classification)
 
 Decision tree classifiers are evaluated using the following metrics:
 
-### Confusion Matrix
+### 8.1 Confusion Matrix
 Displays predicted versus actual class labels.
 
 <img src = "https://images.prismic.io/encord/edfa849b-03fb-43d2-aba5-1f53a8884e6f_image5.png?auto=compress,format" width ="400">
 
-1. Precision
-2. Recall
-3. F1 Score
+1. Precision  
+2. Recall  
+3. F1 Score  
 
 These metrics are particularly useful when working with imbalanced datasets.
 
 ---
 
-## Advantages
+## 9. Advantages
 
 - Highly interpretable and easy to explain
 - Requires minimal data preprocessing
@@ -130,7 +130,7 @@ These metrics are particularly useful when working with imbalanced datasets.
 
 ---
 
-## Limitations
+## 10. Limitations
 
 - Sensitive to small changes in data
 - Prone to overfitting
@@ -139,7 +139,7 @@ These metrics are particularly useful when working with imbalanced datasets.
 
 ---
 
-## Applications
+## 11. Applications
 
 Decision trees are widely used in:
 - Customer behavior prediction
@@ -151,20 +151,9 @@ Decision trees are widely used in:
 
 ---
 
-## References
+## 12. References
 
 1. Breiman, L. et al. *Classification and Regression Trees*, 1984  
 2. Quinlan, J. R. *Induction of Decision Trees*, 1986  
 3. Scikit-learn Documentation – Decision Trees  
    https://scikit-learn.org/stable/modules/tree.html
-
-
-
-
-
-
-
-
-
-
-
