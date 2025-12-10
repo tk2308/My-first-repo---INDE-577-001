@@ -113,11 +113,9 @@ Displays predicted versus actual class labels.
 
 <img src = "https://images.prismic.io/encord/edfa849b-03fb-43d2-aba5-1f53a8884e6f_image5.png?auto=compress,format" width ="400">
 
-### Precision
-
-### Recall
-
-### F1 Score
+1. Precision
+2. Recall
+3. F1 Score
 
 These metrics are particularly useful when working with imbalanced datasets.
 
@@ -159,6 +157,7 @@ Decision trees are widely used in:
 2. Quinlan, J. R. *Induction of Decision Trees*, 1986  
 3. Scikit-learn Documentation – Decision Trees  
    https://scikit-learn.org/stable/modules/tree.html
+
 
 
 
