@@ -23,7 +23,7 @@ A decision tree consists of:
 - **Branches** – Outcomes of decision rules  
 - **Leaf Nodes** – Final predicted class or value  
 
-<img src = "[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRBaG0IhnP0oXHWTlo6qDNW0iOABz2rRKFSw&s](https://techeasyblog.com/wp-content/uploads/2024/06/decision-tree.png)" width="400">
+<img src = "https://techeasyblog.com/wp-content/uploads/2024/06/decision-tree.png" width = "400">
 
 ---
 
@@ -159,6 +159,7 @@ Decision trees are widely used in:
 2. Quinlan, J. R. *Induction of Decision Trees*, 1986  
 3. Scikit-learn Documentation – Decision Trees  
    https://scikit-learn.org/stable/modules/tree.html
+
 
 
 
