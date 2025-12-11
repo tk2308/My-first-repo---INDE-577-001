@@ -48,7 +48,7 @@ The learning rate determines how big each step should be:
 - Too **big** → divergence or oscillation  
 - Optimal → fast and stable convergence  
 
-<img src = "https://www.jeremyjordan.me/content/images/2018/02/Screen-Shot-2018-02-24-at-11.47.09-AM.png" width = "500">
+<img src = "https://www.bdhammel.com/assets/learning-rate/lr-types.png" width = "500">
 
 ---
 
@@ -71,7 +71,7 @@ Updates parameters **after each training example**.
 **Pros:** fast, allows escape from local minima  
 **Cons:** noisy updates  
 
-<img src = "https://miro.medium.com/1*_6TVU8yGpXNYDkkpOfnJ6Q.png" width = "500">
+<img src = "https://spotintelligence.com/wp-content/uploads/2024/03/stochastic-gradient-descent-ml.jpg" width = "500">
 
 ---
 
