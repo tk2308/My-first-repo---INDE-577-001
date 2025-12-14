@@ -15,7 +15,7 @@ Random Forest builds **multiple independent decision trees** and combines their 
 
 This ensemble approach creates a **robust**, **accurate**, and **generalizable** model.
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGNE_Yhii5GIhbiRNNWHJE5i6PVuygD7qcwg&s" width="500">
+<img src="https://serokell.io/files/vz/vz1f8191.Ensemble-of-decision-trees.png" width="500">
 
 ---
 
