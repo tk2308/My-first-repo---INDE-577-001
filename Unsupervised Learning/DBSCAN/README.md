@@ -35,7 +35,7 @@ A point within *eps* of a core point but with fewer than *min_samples* neighbors
 
 A point that is neither core nor border
 
-<img src="https://www.researchgate.net/publication/315326812/figure/fig2/AS:473095908663297@1489806262333/A-cluster-consists-of-core-points-red-and-border-points-green-Core-points-have-at.png" width="500">
+<img src = "https://www.researchgate.net/publication/315326812/figure/fig2/AS:473095908663297@1489806262333/A-cluster-consists-of-core-points-red-and-border-points-green-Core-points-have-at.png" width = "500">
 
 ---
 
