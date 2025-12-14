@@ -26,6 +26,8 @@ Supervised Learning folder contains the implementaion of below models in the cor
 - [**K Nearest Neighbors**]
 - [**Decision Tree**]
 - [**Ensemble**]
+- [**Multilayer Perceptron**]
+- [**Random Forest**]
 
 
 **Unsupervised Learning Models**
@@ -34,6 +36,7 @@ Unsupervised Learning folder contains the implementaion of below models in the c
 
 - [**Principle Component Analysis**]
 - [**K-Means Clustering**]
+- [**DBSCAN**]
 
 
 **Libraries** - Pandas, Matplotlib, Seaborn, NumPy, SciKit Learn

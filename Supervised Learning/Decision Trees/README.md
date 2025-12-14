@@ -1,104 +1,160 @@
-# [Decision Tree Classification](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
-*Classification*
+# Decision Tree Classification
 
-![DTC](Images/Decision_Tree.jpg)
+Decision Trees are supervised machine learning models used for **classification** and **regression**. They predict outcomes by recursively splitting data based on feature values, forming a tree-like structure that is intuitive and easy to interpret.
+
+<img src = "https://i.ytimg.com/vi/ZVR2Way4nwQ/maxresdefault.jpg" width = "500">
+
 ---
 
-## [Synopsis](https://en.wikipedia.org/wiki/Decision_tree_learning)
-Decision tree classifiers are an evolution of the classification chart, which have been used throughout history. The decision tree is a model that predicts the value of a target variable based on input variables. Each node in the tree is labeled with an input feature and the arcs of the feature are labeled with possible values (i.e. x2 >= 1, x2 =< 1). Each node splits possible values of each feature until arriving at a position in which (ideally) one class is described by the set of inequalities preceding the node. A decision the programmer must make is the acceptable mixture of classes within a leaf node. Only allowing pure nodes could expose the model to overfitting. This is an example of a greedy algorithm. 
+## 1. Overview
 
-Two methods to determine the purity of a node are *Gini* and *Entropy*. The Gini impurity is calculated with the equation:
-$
-G_i = 1 - \sum_{k=1}^{n}(p_{i,k}^2)
-$
+A decision tree learns a set of decision rules from input features to predict a target variable. Each internal node represents a feature-based condition, each branch represents an outcome of that condition, and each leaf node represents a final prediction.
 
-Where $p_{i,k}$ is the ratio of class k instances among the training instances of the ith node. A node is pure if the Gini score = 0. For example, if a dataset has 3 classifications, Gini will sum the number of instances in each class, squared, then subtract that value from one.
+Decision trees are commonly used due to their interpretability and ability to model non-linear relationships. They also serve as the foundation for ensemble models such as **Random Forests**.
 
-Entropy is calculated with the equation:
-$H_i = - \sum_{k=1}^n p_{i,k}log_2(p_{i,k})$
+---
 
-Like Gini, a pure node will have an entropy of 0. 
+## 2. Tree Structure
 
-The decision between Gini and Entropy is essentially preference. Choosing one over the other does not typically cause a difference. However, Gini is slightly faster, while entropy produces a more balanced tree. 
+A decision tree consists of:
 
-The Decision Tree works essentially the same as other machine learning models - it must be trained, tested, and reviewed. 
+- **Root Node** – Represents the full dataset  
+- **Decision Nodes** – Apply conditions on features  
+- **Branches** – Outcomes of decision rules  
+- **Leaf Nodes** – Final predicted class or value  
 
-The benefits of a decision tree are:
-- Does not require much data pre-processing
-- Intuitive and easy to explain
+<img src = "https://techeasyblog.com/wp-content/uploads/2024/06/decision-tree.png" width = "400">
 
-The issues with an decision tree are:
-- Small changes in the data can cause large changes in the tree
-- Can produce much more complicated calculations than other models
-- Computationally expensive
+---
 
-The decision tree can be used for both regression and classification tasks. For a regression implementation of the decision tree, see the Regression folder in this repository. 
+## 3. How Decision Trees Learn
 
-## Prediction
-To predict a value with the decision tree, a feature vector is essentially filtered into a classification using the inequalities on the nodes until it reaches a leaf node (end node of a path)
+Decision trees follow a **greedy, top-down** approach. At each node, the algorithm selects the feature and threshold that result in the purest child nodes. This recursive process continues until a stopping condition is met.
 
-### Calculate Error
-The Scikit-Learn module uses the Classification and Regression Tree (CART) algorithm to train decision trees. The algorithm splits the training set into two subsets along a single feature, $k$, and a threshold $t_k$ It searches the pair that produces the purest subset. CART Minimizes the error:
+Common stopping conditions include:
+- Maximum tree depth
+- Minimum samples required to split
+- Pure or near-pure leaf nodes
 
-$J(k,t_k) = \frac{m_{left}}{m}G_{left} + \frac{m_{right}}{m}G_{right}$
+---
 
-where
+## 4. Impurity Measures
 
-$$
-\begin{cases}
-    G_{left/right} \text{ measures impurity of the left/right subset} \\
-    m_{left/right} \text{ is the number of instances in the left/right subset}
-\end{cases}
-$$
+Decision trees use impurity metrics to decide how data should be split.
 
-Unlike other models that produce a prediction, then modify the weights to increase the accuracy, the Decision Tree filters the data to create pure nodes and future feature vectors are filtered by these nodes. 
+### 4.1 Gini Impurity
 
-## Error Analysis
-After training the model, we will calculate the confusion matrix and F score to compare to the other models. The confusion matrix shows the predicted vs actual labels in an easily readible format. The F score is a ratio between the precision and recall.
+Gini impurity measures how often a randomly chosen element would be incorrectly classified.
 
-Precision is calculated using the equation:
-$
-precision = \frac{true positives}{True Positives + False Positives}
-$
+- A Gini score of 0 indicates a pure node
+- Lower values correspond to better splits
 
-Recall is calculated using the equation:
-$
-recall = \frac{True Positives}{True Positives + False Negatives}
-$
-
-The F score is calculated using the equation:
-$
-F = \frac{precision*recall}{precision + recall}
-$
-
-These metrics will allow us to easily compare the models.
+<img src = "https://storage.googleapis.com/lds-media/images/gini-impurity-diagram.width-1200.png" width ="400">
 
 
-## Task
-In this notebook we implement the decision tree algorithm for binary species classification, indicating whether or not a particular internet user has clicked on an Advertisement.
 
-## Dataset
-The data used for this model is a public data from Kaggle https://www.kaggle.com/farhanmd29/predicting-customer-ad-clicks.
+### 4.2 Entropy (Information Gain)
 
-The data contains the following features:  
+Entropy measures the level of uncertainty in a node.
 
-- Daily Time Spent on Site: consumer time on site in minutes
-- Age: cutomer age in years
-- Area Income: Avg. Income of geographical area of consumer
-- Daily Internet Usage: Avg. minutes a day consumer is on the internet
-- Ad Topic Line: Headline of the advertisement
-- City: City of consumer
-- Male: Whether or not consumer was male
-- Country: Country of consumer
-- Timestamp: Time at which consumer clicked on Ad or closed window
-- Clicked on Ad: 0 or 1 indicated clicking on Ad
+Entropy is used to calculate **Information Gain**, which quantifies the reduction in uncertainty after a split.
 
+<img src = "https://i.ytimg.com/vi/Xfgq8zh8sDQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDaF-n7Mqt_PFaUu3z9DLSELPcl9g" width = "400">
 
-## Libraires
-Pandas https://pandas.pydata.org/  
-Matplotlib https://matplotlib.org/  
-Numpy https://numpy.org/  
-Seaborn https://seaborn.pydata.org/  
-Scikit-learn https://scikit-learn.org/  
+---
 
+## 5. CART Algorithm
+
+Scikit-learn implements decision trees using the **Classification and Regression Tree (CART)** algorithm. CART always builds **binary trees** by minimizing impurity at each split.
+
+Where:
+- `k` is the selected feature  
+- `t` is the threshold  
+- `m` is the total number of samples  
+
+---
+
+## 6. Prediction Process
+
+To generate a prediction:
+
+1. A feature vector enters the root node  
+2. Decision rules are evaluated at each node  
+3. The input follows a branch based on conditions  
+4. The leaf node outputs the prediction  
+
+<img src = "https://cdn.prod.website-files.com/6634a8f8dd9b2a63c9e6be83/669a6b70c6ea02632c34a53f_421637.image1.jpeg" width = "400">
+
+---
+
+## 7. Overfitting and Pruning
+
+Decision trees are prone to overfitting when allowed to grow too deep.
+
+### 7.1 Pre-Pruning Techniques
+- Limit maximum depth
+- Set minimum samples per split
+- Set minimum samples per leaf
+
+### 7.2 Post-Pruning
+- Train a full tree
+- Remove branches that do not improve performance
+
+<img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Before_after_pruning.png/1200px-Before_after_pruning.png" width = "400">
+
+---
+
+## 8. Model Evaluation (Classification)
+
+Decision tree classifiers are evaluated using the following metrics:
+
+### 8.1 Confusion Matrix
+Displays predicted versus actual class labels.
+
+<img src = "https://images.prismic.io/encord/edfa849b-03fb-43d2-aba5-1f53a8884e6f_image5.png?auto=compress,format" width ="400">
+
+1. Precision  
+2. Recall  
+3. F1 Score  
+
+These metrics are particularly useful when working with imbalanced datasets.
+
+---
+
+## 9. Advantages
+
+- Highly interpretable and easy to explain
+- Requires minimal data preprocessing
+- Can model non-linear relationships
+- Works with numerical and categorical data
+
+---
+
+## 10. Limitations
+
+- Sensitive to small changes in data
+- Prone to overfitting
+- Greedy splitting may not find optimal trees
+- Can become computationally expensive
+
+---
+
+## 11. Applications
+
+Decision trees are widely used in:
+- Customer behavior prediction
+- Risk and fraud detection
+- Medical decision support
+- Feature importance analysis
+
+<img src ="https://jaro-website.s3.ap-south-1.amazonaws.com/2024/11/Decision-Tree-Applications.webp" width = "400">
+
+---
+
+## 12. References
+
+1. Breiman, L. et al. *Classification and Regression Trees*, 1984  
+2. Quinlan, J. R. *Induction of Decision Trees*, 1986  
+3. Scikit-learn Documentation – Decision Trees  
+   https://scikit-learn.org/stable/modules/tree.html
 
