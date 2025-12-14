@@ -154,7 +154,7 @@ Neural networks are used in:
 * Fraud detection
 * Time-series forecasting
 
-<img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlcxM6kaHx70LSkCQ3jMDbsWYc_TIl3IV6kA&s" width = "500">
+<img src = "https://ars.els-cdn.com/content/image/1-s2.0-S1568494615006122-fx1.jpg" width = "500">
 
 ---
 
