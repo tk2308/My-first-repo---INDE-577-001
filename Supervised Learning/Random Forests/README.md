@@ -47,8 +47,6 @@ Each split considers only a random subset of features — reducing correlation b
 
 More trees → more stable, reliable predictions.
 
-<img src="https://i.sstatic.net/sYR7y.png" width="500">
-
 ---
 
 ## 4. Advantages of Random Forest
