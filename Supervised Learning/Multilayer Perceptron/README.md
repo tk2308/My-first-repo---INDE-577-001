@@ -2,7 +2,7 @@
 
 A **Multilayer Perceptron (MLP)** is a type of **feedforward artificial neural network** used for **classification** and **regression** tasks. It learns complex, non-linear decision boundaries by applying layers of neurons connected through learned weights.
 
-<img src="https://www.researchgate.net/publication/334609713/figure/fig1/AS:11431281369606220@1744317990799/Multi-Layer-Perceptron-MLP-diagram-with-four-hidden-layers-and-a-collection-of-single.tif" width="500">
+<img src="https://aiml.com/wp-content/uploads/2022/06/Multilayer-perceptron-MLP.png" width="500">
 
 ---
 
