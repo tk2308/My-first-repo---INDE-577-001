@@ -3,7 +3,7 @@
 ## Overview
 This folder contains implementations of **supervised machine learning algorithms** organized by model type. Each subfolder includes the corresponding notebook(s) and supporting files used to train models, evaluate performance, and interpret results across both **classification** and **regression** tasks.
 
-<img src = "https://miro.medium.com/1*Iz7bCLrPTImnBDOOEyE3LA.png" width ="500">
+<img src = "https://miro.medium.com/1*Iz7bCLrPTImnBDOOEyE3LA.png" width ="700">
 
 ---
 
