@@ -172,6 +172,7 @@ Most widely used in deep learning.
 
 <p align="center">
 <img src = "https://www.xenonstack.com/hubfs/adam-optimization.png" width = "500">
+  [Adam Optimization Algorithm](https://www.xenonstack.com/glossary/adam-optimization)
 </p>
 
 ---
