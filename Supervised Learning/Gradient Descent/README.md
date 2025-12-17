@@ -3,7 +3,9 @@
 Gradient Descent is a foundational optimization algorithm used in machine learning to minimize a loss function by iteratively updating model parameters in the direction of the steepest descent. 
 It is widely used in regression models, neural networks, logistic regression, support vector machines, and deep learning.
 
+<p align="center">
 <img src = "https://cdn.analyticsvidhya.com/wp-content/uploads/2024/09/631731_P7z2BKhd0R-9uyn9ThDasA.webp" width = "500">
+</p>
 
 ---
 
@@ -36,7 +38,9 @@ Where:
 
 The gradient tells us the direction of **maximum increase**, so we move in the *opposite direction* to reduce loss.
 
+<p align="center">
 <img src = "https://miro.medium.com/v2/resize:fit:1400/0*IYeBGx90QcOfvX0w.png" width = "500">
+</p>
 
 ---
 
@@ -48,7 +52,9 @@ The learning rate determines how big each step should be:
 - Too **big** → divergence or oscillation  
 - Optimal → fast and stable convergence  
 
+<p align="center">
 <img src = "https://www.bdhammel.com/assets/learning-rate/lr-types.png" width = "500">
+</p>
 
 ---
 
@@ -60,7 +66,9 @@ Uses **all training examples** at every step.
 **Pros:** stable, converges smoothly  
 **Cons:** slow for large datasets  
 
+<p align="center">
 <img src = "https://i0.wp.com/spotintelligence.com/wp-content/uploads/2024/05/batch-gradient-descent.jpg?fit=1200%2C675&ssl=1" width = "500">
+</p>
 
 ---
 
@@ -71,7 +79,9 @@ Updates parameters **after each training example**.
 **Pros:** fast, allows escape from local minima  
 **Cons:** noisy updates  
 
+<p align="center">
 <img src = "https://spotintelligence.com/wp-content/uploads/2024/03/stochastic-gradient-descent-ml.jpg" width = "500">
+</p>
 
 ---
 
@@ -81,7 +91,9 @@ Most commonly used. Splits data into batches (e.g., 32, 64, 128).
 **Pros:** balance between speed and stability  
 **Cons:** batch size needs tuning  
 
+<p align="center">
 <img src = "https://substackcdn.com/image/fetch/$s_!Kuy_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5aa826d-4783-4821-89cc-d65148196cf4_887x356.png" width = "500">
+</p>
 
 ---
 
@@ -104,7 +116,9 @@ Examples:
 
 Gradient Descent can be visualized on a 3D surface showing how parameters affect loss.
 
+<p align="center">
 <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu-BqQWSA25ucvesg4chYCZS0kz21z4iZBOg&s" width = "500">
+</p>
 
 ---
 
@@ -130,7 +144,9 @@ Use learning rate schedulers or adaptive optimizers.
 ### 8.3 Slow Convergence  
 Feature scaling (standardization) improves performance.
 
+<p align="center">
 <img src = "https://i.ytimg.com/vi/HcAGThqN7UE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA1XSvrkcLBBxWI6jt6syZMSiM3qg" width = "500">
+</p>
 
 ---
 
@@ -139,18 +155,24 @@ Feature scaling (standardization) improves performance.
 ### 9.1 Momentum  
 Reduces oscillations by smoothing updates.
 
+<p align="center">
 <img src = "https://i.ytimg.com/vi/Q_sHSpRBbtw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDS1NOdF6gFreVE0XkGnsH7ggV-Bw" width = "500">
+</p>
 
 ### 9.2 RMSProp  
 Adapts learning rate by tracking squared gradients.
 
+<p align="center">
 <img src = "https://images.deepai.org/glossary-terms/2b2ca6a239fc4b2c89368b46abfa64df/rms.png" width = "500">
+</p>
 
 ### 9.3 Adam Optimizer  
 Combines Momentum + RMSProp  
 Most widely used in deep learning.
 
+<p align="center">
 <img src = "https://www.xenonstack.com/hubfs/adam-optimization.png" width = "500">
+</p>
 
 ---
 
