@@ -92,7 +92,7 @@ Random Forest provides a ranking of features based on how much they reduce impur
 
 
 <p align="center">
-<img src = "https://www.mdpi.com/applsci/applsci-12-10456/article_deploy/html/images/applsci-12-10456-g002-550.jpg" width="500">
+<img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/03/Screenshot-2020-03-04-at-15.11.56.png" width="500">
 </p>
 
 
