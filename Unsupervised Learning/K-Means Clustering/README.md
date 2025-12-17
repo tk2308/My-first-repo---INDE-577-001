@@ -48,9 +48,10 @@ The **Elbow Method** helps identify the optimal K by plotting WCSS vs. K.
 
 K-Means typically uses **Euclidean distance**:
 
-[
-d = \sqrt{\sum (x_i - y_i)^2}
-]
+$$
+d = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}
+$$
+
 
 <img src = "https://cdn.prod.website-files.com/5ef788f07804fb7d78a4127a/623c68cda43982d04d80a752_Engati-Euclidean-distance%20(1).jpg" width = "500">
 
