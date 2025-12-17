@@ -2,7 +2,9 @@
 
 K-Nearest Neighbors (KNN) is a **supervised machine learning algorithm** used for **classification** and **regression**. It is a simple, intuitive, and non-parametric method that predicts outcomes based on the similarity between data points.
 
+<p align="center">
 <img src="https://media.licdn.com/dms/image/v2/D4D12AQEaIeOIleYxQw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1711781577058?e=2147483647&v=beta&t=F4KOa5-9KrMTNzkxJ9FIRxNFHdvn3nd_Xu00CI4I1Lo" width="500">
+</p>
 
 ---
 
@@ -23,7 +25,9 @@ It relies entirely on **distance metrics** to measure similarity.
 5. Perform **majority voting**  
 6. Assign the predicted class  
 
+<p align="center">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_ary_9vclfUOn810jZil7WIHn9JoU9nYn7w&s" width="500">
+</p>
 
 ---
 
@@ -40,7 +44,9 @@ Useful when movement is grid-like (e.g., city block paths).
 ### • Minkowski Distance
 Generalization of Euclidean and Manhattan.
 
+<p align="center">
 <img src="https://cdn.botpenguin.com/assets/website/Euclidean_Distance_1_59a98c213f.png" width="500">
+</p>
 
 ---
 
@@ -51,7 +57,9 @@ Generalization of Euclidean and Manhattan.
 
 A good practice is to use **odd values** of K when classes are even to avoid ties.
 
+<p align="center">
 <img src="https://builtin.com/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/1_elbow-method.jpeg" width="500">
+</p>
 
 ---
 
@@ -65,7 +73,9 @@ KNN is **sensitive to feature scales** because distance-based methods require nu
 - Handle missing values  
 - Encode categorical variables  
 
+<p align="center">
 <img src="https://miro.medium.com/1*BMHsnpLo_Crnsw0gCMZ0OQ.jpeg" width="500">
+</p>
 
 ---
 

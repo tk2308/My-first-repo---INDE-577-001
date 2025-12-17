@@ -2,7 +2,9 @@
 
 Decision Trees are supervised machine learning models used for **classification** and **regression**. They predict outcomes by recursively splitting data based on feature values, forming a tree-like structure that is intuitive and easy to interpret.
 
+<p align="center">
 <img src = "https://i.ytimg.com/vi/ZVR2Way4nwQ/maxresdefault.jpg" width = "500">
+</p>
 
 ---
 
@@ -23,7 +25,9 @@ A decision tree consists of:
 - **Branches** – Outcomes of decision rules  
 - **Leaf Nodes** – Final predicted class or value  
 
+<p align="center">
 <img src = "https://techeasyblog.com/wp-content/uploads/2024/06/decision-tree.png" width = "400">
+</p>
 
 ---
 
@@ -49,7 +53,9 @@ Gini impurity measures how often a randomly chosen element would be incorrectly 
 - A Gini score of 0 indicates a pure node
 - Lower values correspond to better splits
 
+<p align="center">
 <img src = "https://storage.googleapis.com/lds-media/images/gini-impurity-diagram.width-1200.png" width ="400">
+</p>
 
 
 
@@ -59,7 +65,9 @@ Entropy measures the level of uncertainty in a node.
 
 Entropy is used to calculate **Information Gain**, which quantifies the reduction in uncertainty after a split.
 
+<p align="center">
 <img src = "https://i.ytimg.com/vi/Xfgq8zh8sDQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDaF-n7Mqt_PFaUu3z9DLSELPcl9g" width = "400">
+</p>
 
 ---
 
@@ -83,7 +91,9 @@ To generate a prediction:
 3. The input follows a branch based on conditions  
 4. The leaf node outputs the prediction  
 
+<p align="center">
 <img src = "https://cdn.prod.website-files.com/6634a8f8dd9b2a63c9e6be83/669a6b70c6ea02632c34a53f_421637.image1.jpeg" width = "400">
+</p>
 
 ---
 
@@ -100,7 +110,9 @@ Decision trees are prone to overfitting when allowed to grow too deep.
 - Train a full tree
 - Remove branches that do not improve performance
 
+<p align="center">
 <img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Before_after_pruning.png/1200px-Before_after_pruning.png" width = "400">
+</p>
 
 ---
 
@@ -111,7 +123,9 @@ Decision tree classifiers are evaluated using the following metrics:
 ### 8.1 Confusion Matrix
 Displays predicted versus actual class labels.
 
+<p align="center">
 <img src = "https://images.prismic.io/encord/edfa849b-03fb-43d2-aba5-1f53a8884e6f_image5.png?auto=compress,format" width ="400">
+</p>
 
 1. Precision  
 2. Recall  
@@ -147,7 +161,9 @@ Decision trees are widely used in:
 - Medical decision support
 - Feature importance analysis
 
+<p align="center">
 <img src ="https://jaro-website.s3.ap-south-1.amazonaws.com/2024/11/Decision-Tree-Applications.webp" width = "400">
+</p>
 
 ---
 
@@ -157,4 +173,5 @@ Decision trees are widely used in:
 2. Quinlan, J. R. *Induction of Decision Trees*, 1986  
 3. Scikit-learn Documentation – Decision Trees  
    https://scikit-learn.org/stable/modules/tree.html
+
 

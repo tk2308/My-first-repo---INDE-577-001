@@ -3,7 +3,9 @@
 Ensemble methods combine multiple individual models to create a stronger, more robust predictor. 
 They improve accuracy, reduce variance, and prevent overfitting by leveraging the collective power of multiple weak or strong learners.
 
+<p align="center">
 <img src="https://i0.wp.com/spotintelligence.com/wp-content/uploads/2024/03/bagging-boosting-stacking.jpg?fit=1200%2C675&ssl=1&resize=1280%2C720" width="500">
+</p>
 
 ---
 
@@ -23,7 +25,9 @@ Common ensemble families:
 - **Stacking**
 - **Voting Ensembles**
 
+<p align="center">
 <img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2023/01/39596bagging-boosting-stacking-differences.webp" width="500">
+</p>
 
 ---
 
@@ -43,7 +47,9 @@ Ensembles perform best when individual learners:
 - Make different types of errors  
 - Bring unique decision boundaries  
 
+<p align="center">
 <img src="https://images.prismic.io/encord/4fda620b-ac6c-45dc-ba17-f0d68bc7888f_What+is+Ensemble+Learning_.png?auto=compress%2Cformat&fit=max" width="500">
+</p>
 
 ---
 
@@ -64,7 +70,9 @@ Benefits:
 - Handles overfitting  
 - Works well with noisy data  
 
+<p align="center">
 <img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2023/08/image-7.png" width="500">
+</p>
 
 ---
 
@@ -75,7 +83,9 @@ Benefits:
 3. Randomly select subset of features at each split  
 4. Aggregate predictions  
 
+<p align="center">
 <img src="https://miro.medium.com/1*SSLTg4ayllaSEDrg1iLIug.png" width="500">
+</p>
 
 ---
 
@@ -90,7 +100,9 @@ Common algorithms:
 - LightGBM
 - CatBoost
 
+<p align="center">
 <img src="https://payload-cms.code-b.dev/media/Boosting.png" width="500">
+</p>
 
 ### Key Idea:
 - Start with weak learners  
@@ -107,7 +119,9 @@ Example:
 - Level 0: Random Forest, SVM, Logistic Regression  
 - Level 1: Meta-model (often Linear Regression or XGBoost)
 
+<p align="center">
 <img src="https://miro.medium.com/1*DM1DhgvG3UCEZTF-Ev5Q-A.png" width="500">
+</p>
 
 Benefits:
 - Models complement each other  
@@ -123,7 +137,9 @@ Types:
 - **Hard Voting:** majority vote  
 - **Soft Voting:** average of predicted probabilities  
 
+<p align="center">
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*djKLooxyOLvr98oMi5uwgA.jpeg" width="500">
+</p>
 
 ---
 
@@ -160,7 +176,9 @@ Regression ensembles reduce variance and improve stability for:
 - ExtraTrees Regressor  
 - Stacking Regressor  
 
+<p align="center">
 <img src="https://ik.imagekit.io/upgrad1/abroad-images/imageCompo/images/Types_of_Ensemble_Methods_in_Machine_Learning_visual_selection0BKODG.png" width="500">
+</p>
 
 ---
 
@@ -175,7 +193,9 @@ Ensemble methods help achieve optimal trade-offs:
 | Stacking | ↓ Bias | ↓ Variance |
 | Voting | Depends on base models | ↓ Variance |
 
+<p align="center">
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*kL55QzQVBtUqnQi_NnYZVQ.png" width="500">
+</p>
 
 ---
 

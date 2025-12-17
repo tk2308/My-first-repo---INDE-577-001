@@ -4,7 +4,9 @@ Principal Component Analysis (PCA) is an **unsupervised dimensionality reduction
 
 It is widely used in **machine learning preprocessing**, **visualization**, and **noise reduction**.
 
+<p align="center">
 <img src="https://teamraft.com/wp-content/uploads/jan_04_2019.png" width="500">
+</p>
 
 ---
 
@@ -31,7 +33,9 @@ PCA helps:
 5. Select top components
 6. Transform the original dataset
 
+<p align="center">
 <img src="https://b1879915.smushcdn.com/1879915/wp-content/uploads/2024/12/Process-of-PCA.jpg?lossy=2&strip=1&webp=1" width="500">
+</p>
 
 ---
 
@@ -39,14 +43,17 @@ PCA helps:
 
 PCA begins by constructing a **covariance matrix**, showing how two variables vary together.
 
-[
-Cov(X, Y) = \frac{1}{n-1} \sum (X_i - \bar{X})(Y_i - \bar{Y})
-]
+$$
+\mathrm{Cov}(X, Y) = \frac{1}{n-1} \sum_{i=1}^{n} (X_i - \bar{X})(Y_i - \bar{Y})
+$$
+
 
 High covariance → variables change together
 Low covariance → variables behave independently
 
+<p align="center">
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20251118162513340431/covariance_matrix_2.webp" width="500">
+</p>
 
 ---
 
@@ -57,7 +64,9 @@ Low covariance → variables behave independently
 
 Largest eigenvalue → most important component
 
+<p align="center">
 <img src="https://miro.medium.com/1*qG4PEnoSWQRLoEL_P1ruhw.jpeg" width="500">
+</p>
 
 ---
 
@@ -65,13 +74,16 @@ Largest eigenvalue → most important component
 
 This shows how much of the dataset’s total variance each principal component explains.
 
-[
-\text{Explained Variance Ratio} = \frac{\lambda_i}{\sum \lambda}
-]
+$$
+\text{Explained Variance Ratio}_i = \frac{\lambda_i}{\sum_{j=1}^{n} \lambda_j}
+$$
 
-Often visualized using a **scree plot**:
 
+Often visualized using a **plot**:
+
+<p align="center">
 <img src="https://statisticsglobe.com/wp-content/uploads/2022/12/screeplot_pca_mtcars.png" width="500">
+</p>
 
 ---
 
@@ -138,7 +150,9 @@ print("Explained variance ratio:", pca.explained_variance_ratio_)
 * Clustering (preprocessing)
 * Reducing multicollinearity
 
+<p align="center">
 <img src="https://media.licdn.com/dms/image/v2/D4D12AQHq3Cw6bYwFOA/article-inline_image-shrink_1000_1488/B4DZmBCcd8GwAU-/0/1758806528070?e=2147483647&v=beta&t=1JBjQicpsRs_zvBO1jQ5123i29SgOlUisNCWC6_knxc" width="500">
+<p align="center">
 
 ---
 
