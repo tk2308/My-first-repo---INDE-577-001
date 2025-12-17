@@ -71,7 +71,7 @@ $$
 $$
 
 
-Often visualized using a **scree plot**:
+Often visualized using a **plot**:
 
 <img src="https://statisticsglobe.com/wp-content/uploads/2022/12/screeplot_pca_mtcars.png" width="500">
 
