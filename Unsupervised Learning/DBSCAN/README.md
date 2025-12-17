@@ -4,7 +4,9 @@ DBSCAN (**Density-Based Spatial Clustering of Applications with Noise**) is an *
 
 It is especially powerful when clusters are irregular, overlapping, or when the dataset contains significant noise.
 
-<img src="https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-023-45190-4/MediaObjects/41598_2023_45190_Fig1_HTML.png" width="500">
+<p align="center">
+  <img src="https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-023-45190-4/MediaObjects/41598_2023_45190_Fig1_HTML.png" width="500">
+</p>
 
 ---
 
