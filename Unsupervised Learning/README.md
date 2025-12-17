@@ -29,17 +29,11 @@ The notebooks in this folder use:
 
 ---
 
-## Folders Included
+## Algorithms Included
 - [Principle Component Analysis](./Principle%20Component%20Analysis)
 - [K-Means Clustering](./K-Means%20Clustering)
-- [DBSCAN](./DBSCAN)
+- [DBSCAN (Density-Based Spatial Clustering of Applications with Noise)](./DBSCAN)
 
----
-
-## Algorithms Covered
-- **Principal Component Analysis (PCA)**
-- **K-Means Clustering**
-- **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)**
 
 ---
 
