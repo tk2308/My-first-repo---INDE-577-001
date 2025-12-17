@@ -4,7 +4,9 @@ Principal Component Analysis (PCA) is an **unsupervised dimensionality reduction
 
 It is widely used in **machine learning preprocessing**, **visualization**, and **noise reduction**.
 
+<p align="center">
 <img src="https://teamraft.com/wp-content/uploads/jan_04_2019.png" width="500">
+</p>
 
 ---
 
