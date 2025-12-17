@@ -12,6 +12,7 @@ The Perceptron is a **linear classifier**, meaning it can only learn linearly se
 <p align="center">
   <img src="https://media.geeksforgeeks.org/wp-content/uploads/20251209120638608023/bhu.webp" width="700">
 </p>
+
 ---
 
 ## 2. Problem Type
@@ -30,7 +31,6 @@ The perceptron consists of:
 2. Weights associated with each feature
 3. A bias term
 4. An activation function
-
 
 ---
 
