@@ -39,9 +39,10 @@ PCA helps:
 
 PCA begins by constructing a **covariance matrix**, showing how two variables vary together.
 
-[
-Cov(X, Y) = \frac{1}{n-1} \sum (X_i - \bar{X})(Y_i - \bar{Y})
-]
+$$
+\mathrm{Cov}(X, Y) = \frac{1}{n-1} \sum_{i=1}^{n} (X_i - \bar{X})(Y_i - \bar{Y})
+$$
+
 
 High covariance → variables change together
 Low covariance → variables behave independently
@@ -65,9 +66,10 @@ Largest eigenvalue → most important component
 
 This shows how much of the dataset’s total variance each principal component explains.
 
-[
-\text{Explained Variance Ratio} = \frac{\lambda_i}{\sum \lambda}
-]
+$$
+\text{Explained Variance Ratio}_i = \frac{\lambda_i}{\sum_{j=1}^{n} \lambda_j}
+$$
+
 
 Often visualized using a **scree plot**:
 
