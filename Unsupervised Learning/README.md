@@ -1,24 +1,52 @@
-# My-first-repo---INDE-577-001
+# Unsupervised Learning
 
+## Overview
+This folder contains implementations of **unsupervised machine learning algorithms** used to explore structure in unlabeled data. 
+The work includes dimensionality reduction and clustering techniques, implemented through Python notebooks.
+<p align="center">
+  <img src = "https://miro.medium.com/1*5f8VujKLQKhQZRafA2t9hw.png" width="700">
+</p>
 
-<img width="669" height="374" alt="Screenshot 2025-11-18 at 6 25 55 pm" src="https://github.com/user-attachments/assets/cf193b2f-61a1-491f-a038-843aefdb5877" />
+---
 
+## Purpose & Learning Outcomes
+The purpose of this section is to apply **unsupervised learning** methods to datasets and extract meaningful patterns without using labeled targets.
 
-**Purpose:** To perform Supervised & Unsupervised Learning using various machine learning models.
+By completing the work in this folder, you demonstrate the ability to:
+- Apply unsupervised learning for exploratory data analysis
+- Reduce dimensionality to support visualization and insight generation
+- Perform clustering to discover natural groupings in data
+- Interpret results through plots and quantitative evaluation where applicable
+- Build end-to-end workflows including preprocessing, modeling, and analysis in notebooks
 
-The various algorithms are implemented using the RealEstate Dataset(predicting the price of a house based on features like X1 transaction date X2 house age X3 distance to the nearest MRT station X4 number of convenience stores X5 latitude X6 longitude. The other dataset used is a heart_failure_clinical_records dataset that predicts the mortality of a person based on features like, age, anaemia, creatinine_phosphokinase,diabetes, ejection_fraction, high_blood_pressure, platelets, serum_creatinine,serum_sodium,sex and smoking.
+---
 
-**CONTENTS:**
+## Datasets Used
+The notebooks in this folder use:
 
+- **Scikit-learn Wine dataset (`load_wine`)**  
+  Used in the PCA, K-Means Clustering, and DBSCAN notebooks.
 
-**Unsupervised Learning Models**
+---
 
-Unsupervised Learning folder contains the implementaion of below models in the corresponding directories.
+## Folders Included
+- [Principle Component Analysis](./Principle%20Component%20Analysis)
+- [K-Means Clustering](./K-Means%20Clustering)
+- [DBSCAN](./DBSCAN)
 
-- [**Principle Component Analysis**]
-- [**K-Means Clustering**]
+---
 
+## Algorithms Covered
+- **Principal Component Analysis (PCA)**
+- **K-Means Clustering**
+- **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)**
 
-**Libraries** - Pandas, Matplotlib, Seaborn, NumPy, SciKit Learn
+---
 
-
+## Libraries Used
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit Learn
+- Seaborn
+- Matplotlib
