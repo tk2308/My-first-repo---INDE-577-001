@@ -44,7 +44,7 @@ K-Means requires selecting the correct number of clusters.
 The **Elbow Method** helps identify the optimal K by plotting WCSS vs. K.
 
 <p align="center">
-  <img src="https://lh4.googleusercontent.com/-LLC8RDjcP3RhLEP67nDHhN8n90U8Z_42uG32Z9TxArZbKkM0jD3NaNz2CmmfqdUd7iEcChroOVrOmO7YR4yMk8PHZvuDXFVoHaCiBDXPX_XQbyIsdR4DYrh8jDUmrEkWQmpxwQqmGrdeZ9sVg" width="500">
+  <img src="https://miro.medium.com/0*aY163H0kOrBO46S-.png" width="500">
 </p>
 
 ---
@@ -59,7 +59,7 @@ $$
 
 
 <p align="center">
-  <img src="https://miro.medium.com/0*aY163H0kOrBO46S-.png" width="500">
+  <img src="https://cdn.prod.website-files.com/5ef788f07804fb7d78a4127a/623c68cda43982d04d80a752_Engati-Euclidean-distance%20(1).jpg" width="500">
 </p>
 
 
@@ -77,7 +77,7 @@ Because K-Means is distance-based, **feature scaling is essential**.
 * Check for feature imbalance
 
 <p align="center">
-  <img src="https://cdn.prod.website-files.com/5ef788f07804fb7d78a4127a/623c68cda43982d04d80a752_Engati-Euclidean-distance%20(1).jpg" width="500">
+  <img src="https://miro.medium.com/1*BMHsnpLo_Crnsw0gCMZ0OQ.jpeg" width="500">
 </p>
 
 
@@ -93,7 +93,7 @@ Visualization often includes:
 * PCA for 2D/3D projection
 
 <p align="center">
-  <img src="https://miro.medium.com/1*BMHsnpLo_Crnsw0gCMZ0OQ.jpeg" width="500">
+  <img src="https://miro.medium.com/0*uJMVSV1wM5ZtOZhg.png" width="500">
 </p>
 
 
@@ -141,7 +141,7 @@ X_pca = pca.fit_transform(X_scaled)
 * Not suitable for complex cluster shapes
 
 <p align="center">
-  <img src="https://miro.medium.com/0*uJMVSV1wM5ZtOZhg.png" width="500">
+  <img src="https://fastercapital.com/i/K-means-clustering--How-to-Use-a-Simple-and-Fast-Algorithm-for-Marketing-Segmentation-and-Grouping--Challenges-and-Limitations-of-K-means.webp" width="500">
 </p>
 
 
