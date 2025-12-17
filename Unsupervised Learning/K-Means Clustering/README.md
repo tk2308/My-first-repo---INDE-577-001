@@ -12,9 +12,10 @@ K-Means aims to divide data into **K clusters**, where each cluster is represent
 
 The algorithm minimizes the **within-cluster sum of squares (WCSS)** by iteratively updating cluster assignments.
 
-[
-\text{WCSS} = \sum_{k=1}^{K} \sum_{i \in C_k} ||x_i - \mu_k||^2
-]
+$$
+\text{WCSS} = \sum_{k=1}^{K} \sum_{i \in C_k} \lVert x_i - \mu_k \rVert^2
+$$
+
 
 ---
 
