@@ -27,7 +27,7 @@ $$
 4. Update centroids as the mean of all points in the cluster
 5. Repeat until centroids stabilize (**convergence**)
 
-<img src = "https://www.researchgate.net/publication/348369378/figure/fig1/AS:978415586906114@1610283862742/K-Means-algorithm-flowchart.png" width = "500">
+<img src = "https://lh4.googleusercontent.com/-LLC8RDjcP3RhLEP67nDHhN8n90U8Z_42uG32Z9TxArZbKkM0jD3NaNz2CmmfqdUd7iEcChroOVrOmO7YR4yMk8PHZvuDXFVoHaCiBDXPX_XQbyIsdR4DYrh8jDUmrEkWQmpxwQqmGrdeZ9sVg" width = "500">
 
 ---
 
