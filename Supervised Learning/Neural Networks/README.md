@@ -2,7 +2,9 @@
 
 Neural Networks are a class of **supervised machine learning models** inspired by the structure and functioning of the human brain. They consist of interconnected layers of nodes (neurons) that learn complex patterns in data through weighted connections.
 
+<p align="center">
 <img src = "https://substackcdn.com/image/fetch/$s_!fSMF!,w_520,h_272,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc41b2249-b92e-4dde-aced-c578ccc04ba1_983x473.png" width = "500">
+</p>
 
 ---
 
@@ -36,7 +38,9 @@ Perform transformations using **weights**, **biases**, and **activation function
 
 Produces the final prediction (class label or regression value).
 
+<p align="center">
 <img src = "https://pub.mdpi-res.com/computation/computation-11-00052/article_deploy/html/images/computation-11-00052-g001-550.jpg?1678088436" width = "500">
+</p>
 
 ---
 
@@ -51,7 +55,9 @@ Produces the final prediction (class label or regression value).
 5. **Gradient Descent** updates weights and biases
 6. Repeat for multiple epochs until convergence
 
+<p align="center">
 <img src = "https://miro.medium.com/1*vTPtIjnwBqjqTpYfvcurKw.png" width = "500">
+</p>
 
 ---
 
@@ -75,7 +81,9 @@ Zero-centered alternative to Sigmoid.
 
 Used for multi-class classification.
 
+<p align="center">
 <img src = "https://i.ytimg.com/vi/aywf1vAIc6Y/sddefault.jpg?v=67ebad85" width = "500">
+</p>
 
 ---
 
@@ -93,7 +101,9 @@ Neural networks optimize a loss function that measures prediction error.
 * Mean Squared Error (MSE)
 * Mean Absolute Error (MAE)
 
+<p align="center">
 <img src = "https://miro.medium.com/v2/resize:fit:1400/0*ayO78n7DEJAk198B" width = "500">
+</p>
 
 ---
 
@@ -111,7 +121,9 @@ Solution: ReLU activation, batch normalization, better initialization.
 
 Solution: GPUs, mini-batch training.
 
+<p align="center">
 <img src = "https://pengfeinie.github.io/images/overfitting_21.png" width = "500">
+</p>
 
 ---
 
@@ -154,7 +166,9 @@ Neural networks are used in:
 * Fraud detection
 * Time-series forecasting
 
+<p align="center">
 <img src = "https://ars.els-cdn.com/content/image/1-s2.0-S1568494615006122-fx1.jpg" width = "500">
+</p>
 
 ---
 
