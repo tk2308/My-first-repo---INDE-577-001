@@ -2,7 +2,9 @@
 
 Linear Regression is a **supervised machine learning algorithm** used for **predicting continuous numerical values**. It models the relationship between input features and a target variable by fitting a straight line that minimizes prediction error.
 
+<p align="center">
 <img src="https://statistics.laerd.com/spss-tutorials/img/lr/linear-nonlinear-relationships.png" width="500">
+</p>
 
 ---
 
@@ -26,7 +28,9 @@ It assumes that the change in the input feature produces a **proportional and li
 4. Predict values using the line equation
 5. Measure error and adjust the line
 
+<p align="center">
 <img src="https://miro.medium.com/1*WCcaObzvvVzcrg8CBi6iCQ.jpeg" width="500">
+</p>
 
 ---
 
@@ -40,7 +44,9 @@ MSE = \frac{1}{n} \sum (y_i - \hat{y}_i)^2
 
 A lower MSE indicates a better fit.
 
+<p align="center">
 <img src="https://vitalflux.com/wp-content/uploads/2020/09/Regression-terminologies-Page-3.png" width="500">
+</p>
 
 ---
 
@@ -75,7 +81,9 @@ Linear Regression relies on several statistical assumptions:
 * **Independence** — errors are not correlated
 * **Normality** — residuals follow a normal distribution
 
+<p align="center">
 <img src="https://quantifyinghealth.com/wp-content/uploads/2022/12/checking-the-linearity-assumption.png" width="500">
+</p>
 
 ---
 
@@ -123,7 +131,9 @@ Linear Regression is used in:
 * Demand prediction
 * Medical and scientific modeling
 
+<p align="center">
 <img src = "https://dataaspirant.com/wp-content/uploads/2023/10/3-8.png" width="500">
+</p>
 
 ---
 
