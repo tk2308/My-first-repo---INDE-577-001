@@ -105,10 +105,6 @@ $$
 3. Features are numeric
 4. Feature scaling improves convergence
 
-<p align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8VbLHmMCUA0-PdUjJykfTwEaE3i1eICf9KA&s" width="700">
-</p>
-
 ---
 
 ## 9. Advantages
