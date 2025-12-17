@@ -2,7 +2,9 @@
 
 Random Forest is a **supervised machine learning algorithm** that uses an **ensemble of decision trees** to perform **classification** or **regression**. It improves accuracy, reduces overfitting, and handles high-dimensional data effectively.
 
+<p align="center">
 <img src="https://substackcdn.com/image/fetch/$s_!Uxm0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F959001a5-9bfa-4d0c-9a19-e48bca541cdd_1010x716.png" width="500">
+</p>
 
 ---
 
@@ -15,7 +17,9 @@ Random Forest builds **multiple independent decision trees** and combines their 
 
 This ensemble approach creates a **robust**, **accurate**, and **generalizable** model.
 
+<p align="center">
 <img src="https://serokell.io/files/vz/vz1f8191.Ensemble-of-decision-trees.png" width="500">
+</p>
 
 ---
 
@@ -29,7 +33,9 @@ This ensemble approach creates a **robust**, **accurate**, and **generalizable**
    * Majority vote (classification)
    * Mean value (regression)
 
+<p align="center">
 <img src="https://datasciencedojo.com/wp-content/uploads/2-7.png" width="500">
+</p>
 
 ---
 
@@ -84,7 +90,9 @@ Random Forest provides a ranking of features based on how much they reduce impur
 * `max_features` → number of features to consider per split
 * `bootstrap=True/False`
 
+<p align="center">
 <img src="https://www.mdpi.com/applsci/applsci-12-10456/article_deploy/html/images/applsci-12-10456-g002-550.jpg" width="500">
+</p>
 
 ---
 
