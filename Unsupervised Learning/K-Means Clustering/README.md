@@ -2,7 +2,10 @@
 
 K-Means is an **unsupervised machine learning algorithm** used to **group data into clusters** based on similarity. It works by partitioning data into *K distinct clusters* such that each point belongs to the cluster with the nearest centroid.
 
-<img src = "https://www.ejable.com/wp-content/uploads/2023/11/Unlabeled-data-vs.-labeled-clusters-2.webp" width = "500">
+<p align="center">
+  <img src="https://www.ejable.com/wp-content/uploads/2023/11/Unlabeled-data-vs.-labeled-clusters-2.webp" width="500">
+</p>
+
 
 ---
 
@@ -40,7 +43,9 @@ K-Means requires selecting the correct number of clusters.
 
 The **Elbow Method** helps identify the optimal K by plotting WCSS vs. K.
 
-<img src = "https://miro.medium.com/0*aY163H0kOrBO46S-.png" width = "500">
+<p align="center">
+  <img src="https://lh4.googleusercontent.com/-LLC8RDjcP3RhLEP67nDHhN8n90U8Z_42uG32Z9TxArZbKkM0jD3NaNz2CmmfqdUd7iEcChroOVrOmO7YR4yMk8PHZvuDXFVoHaCiBDXPX_XQbyIsdR4DYrh8jDUmrEkWQmpxwQqmGrdeZ9sVg" width="500">
+</p>
 
 ---
 
@@ -53,7 +58,10 @@ d = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}
 $$
 
 
-<img src = "https://cdn.prod.website-files.com/5ef788f07804fb7d78a4127a/623c68cda43982d04d80a752_Engati-Euclidean-distance%20(1).jpg" width = "500">
+<p align="center">
+  <img src="https://miro.medium.com/0*aY163H0kOrBO46S-.png" width="500">
+</p>
+
 
 ---
 
@@ -68,7 +76,10 @@ Because K-Means is distance-based, **feature scaling is essential**.
 * Encode categorical variables (if any)
 * Check for feature imbalance
 
-<img src = "https://miro.medium.com/1*BMHsnpLo_Crnsw0gCMZ0OQ.jpeg" width = "500">
+<p align="center">
+  <img src="https://cdn.prod.website-files.com/5ef788f07804fb7d78a4127a/623c68cda43982d04d80a752_Engati-Euclidean-distance%20(1).jpg" width="500">
+</p>
+
 
 ---
 
@@ -81,7 +92,10 @@ Visualization often includes:
 * Centroid markers
 * PCA for 2D/3D projection
 
-<img src = "https://miro.medium.com/0*uJMVSV1wM5ZtOZhg.png" width = "500">
+<p align="center">
+  <img src="https://miro.medium.com/1*BMHsnpLo_Crnsw0gCMZ0OQ.jpeg" width="500">
+</p>
+
 
 ---
 
@@ -126,7 +140,10 @@ X_pca = pca.fit_transform(X_scaled)
 * Assumes spherical clusters
 * Not suitable for complex cluster shapes
 
-<img src = "https://fastercapital.com/i/K-means-clustering--How-to-Use-a-Simple-and-Fast-Algorithm-for-Marketing-Segmentation-and-Grouping--Challenges-and-Limitations-of-K-means.webp" width = "500">
+<p align="center">
+  <img src="https://miro.medium.com/0*uJMVSV1wM5ZtOZhg.png" width="500">
+</p>
+
 
 ---
 
@@ -140,7 +157,10 @@ K-Means is widely used in:
 * Document clustering
 * Market segmentation
 
-<img src = "https://cdn-ileecnj.nitrocdn.com/JHsXwyfxJOYTadtVKgrLqQCwYuZZjQpq/assets/images/optimized/rev-72cea9a/www.lyzr.ai/wp-content/uploads/2024/11/napkin-selection-1-2-1024x781.png" width = "500">
+<p align="center">
+  <img src="https://cdn-ileecnj.nitrocdn.com/JHsXwyfxJOYTadtVKgrLqQCwYuZZjQpq/assets/images/optimized/rev-72cea9a/www.lyzr.ai/wp-content/uploads/2024/11/napkin-selection-1-2-1024x781.png" width="500">
+</p>
+
 
 ---
 
