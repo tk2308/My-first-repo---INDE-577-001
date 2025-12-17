@@ -17,7 +17,7 @@ Contains fundamentals of the python programming
 
 **Supervised Learning Models**
 
-Supervised Learning folder contains the implementaion of below models in the corresponding directories.
+[Supervised Learning](./Supervised%20Learning) folder contains the implementaion of below models in the corresponding directories.
 - **Perceptron**
 - **Gradient Descent**
 - **Linear Regression**
@@ -32,7 +32,7 @@ Supervised Learning folder contains the implementaion of below models in the cor
 
 **Unsupervised Learning Models**
 
-Unsupervised Learning folder contains the implementaion of below models in the corresponding directories.
+[Unsupervised Learning](./Unsupervised%20Learning) folder contains the implementaion of below models in the corresponding directories.
 
 - **Principle Component Analysis**
 - **K-Means Clustering**
