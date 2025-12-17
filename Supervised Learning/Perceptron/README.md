@@ -133,13 +133,7 @@ $$
 
 ---
 
-## 12. Summary
-
-The Perceptron is a foundational machine learning algorithm that introduced weight-based learning and formed the basis of modern neural networks.
-
----
-
-## 13. References
+## 12. References
 
 1. Rosenblatt, F. (1958). *The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain*
 2. [https://scikit-learn.org/stable/modules/linear_model.html#perceptron](https://scikit-learn.org/stable/modules/linear_model.html#perceptron)
